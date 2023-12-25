@@ -60,6 +60,7 @@ var addUser = function (_a) {
         });
     });
 };
+// const syncUser
 exports.Products = {
     slug: "products",
     admin: {
