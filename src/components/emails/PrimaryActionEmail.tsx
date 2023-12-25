@@ -1,3 +1,5 @@
+import * as React from 'react'
+
 import { Html, Preview, Body, Container, Img, Section, Button, Hr, Head, Text, render } from "@react-email/components";
 
 export type Props = {
