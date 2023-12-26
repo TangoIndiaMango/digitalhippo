@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "main": "dist/server.js",
-  
   "scripts": {
     "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts nodemon",
     "generate:types": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload generate:types",
@@ -49,6 +48,7 @@
     "react-hook-form": "^7.48.2",
     "resend": "^2.0.0",
     "sonner": "^1.2.4",
+    "string-width": "^7.0.0",
     "stripe": "^14.9.0",
     "swiper": "^11.0.5",
     "tailwind-merge": "^2.0.0",
